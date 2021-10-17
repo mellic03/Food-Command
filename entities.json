@@ -1,0 +1,74 @@
+{
+    "player":
+    {
+        "name": "player", 
+        "imagePath": "assets/img/player/burgerCannon.png",
+        "missilePathLeft": "assets/img/player/burgerMissileLeft.png",
+        "missilePathRight": "assets/img/player/burgerMissileRight.png",
+        "spriteSheetPath": "assets/img/player/burgerExplosion.png",
+        "crosshairPath": "assets/img/player/crosshair.png"
+    },
+    
+    "enemy":
+    [
+        {
+            "name": "carrot",
+            "imagePath": "assets/img/enemy/carrot.png",
+            "spriteSheetPath": "assets/img/enemy/carrotExplosion.png",
+            "damage": "4",
+            "score": "10"
+        },
+
+        {
+            "name": "strawberry",
+            "imagePath": "assets/img/enemy/strawberry.png",
+            "spriteSheetPath": "assets/img/enemy/strawberryExplosion.png",
+            "damage": "5",
+            "score": "15"
+        },
+
+        {
+            "name": "cherryDouble",
+            "imagePath": "assets/img/enemy/cherry.png",
+            "spriteSheetPath": "assets/img/enemy/cherryExplosion.png",
+            "damage": "10",
+            "score": "50"
+        },
+        
+        {
+            "name": "cherrySingle",
+            "imagePath": "assets/img/enemy/cherrySingle.png",
+            "spriteSheetPath": "assets/img/enemy/cherryExplosion.png",
+            "damage": "5",
+            "score": "30"
+        }
+    ],
+
+    "powerup":
+    [
+        {
+            "name": "extra sauce",
+            "description": "Your burgers are extra saucey for 60 seconds",
+            "imagePath": "assets/img/powerups/saucebottle.png",
+            "value": "120",
+            "duration": "60"
+        },
+
+        {
+            "name": "faster missiles",
+            "description": "Your burgers are faster for 60 seconds",
+            "imagePath": "assets/img/powerups/speed.png",
+            "value": "30",
+            "duration": "60"
+        },
+
+        {
+            "name": "ammo",
+            "description": "You receive an extra 10 burgers",
+            "imagePath": "assets/img/powerups/ammo.png",
+            "value": "10",
+            "duration": "infinite"
+        }
+    ]
+}
+
